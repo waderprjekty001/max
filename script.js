@@ -1,5 +1,11 @@
 gsap.registerPlugin(ScrollTrigger);
 
+
+ScrollTrigger.matchMedia({
+    all: function () {
+    // ScrollTriggers created here aren't associated with a particular media query,
+    // so they persist.
+  
 gsap.from(".Maximus", {
     opacity: 0, 
     y: 100, 
@@ -179,4 +185,7 @@ durration: 5,
 stagger: 1 
 });
 
+
+},
+});
 
