@@ -50,7 +50,7 @@ gsap.from(".auto", {
     opacity: 100, 
     x: -1500, 
     y: -200,
-    durration: 5, 
+    durration: 1, 
     stagger: 1 
     });
 
