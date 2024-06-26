@@ -1,8 +1,5 @@
 gsap.registerPlugin(ScrollTrigger);
-
-
-
-  
+ 
 gsap.from(".Maximus", {
     opacity: 0, 
     y: 100, 
