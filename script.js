@@ -61,7 +61,7 @@ gsap.from(".auto", {
     scrub: true
     },
     opacity: 100, 
-    x: -1500, 
+    x: -700, 
     y: -200
     });
 
