@@ -62,6 +62,18 @@ gsap.from(".auto", {
     },
     opacity: 100, 
     x: -1500, 
+    y: -200
+    });
+
+     gsap.from(".autobackup", {
+    scrollTrigger: {
+    trigger: ".auto", 
+    start:"top 80%",
+    end:"top 10%",
+    scrub: true
+    },
+    opacity: 100, 
+    x: -1500, 
     y: -200,
     durration: 1, 
     stagger: 1 
