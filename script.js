@@ -58,14 +58,15 @@ gsap.from(".auto", {
     trigger: ".auto", 
     start:"top 60%",
     end:"top 5%",
-    scrub: true
+    scrub: true,
+    markers: true
     },
     opacity: 100, 
     x: -1500, 
     y: -200
     });
 
-     gsap.from(".autobackup", {
+gsap.from(".autobackup", {
     scrollTrigger: {
     trigger: ".auto", 
     start:"top 80%",
