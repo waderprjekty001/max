@@ -58,8 +58,7 @@ gsap.from(".auto", {
     trigger: ".auto", 
     start:"top 70%",
     end:"top -20%",
-    scrub: true,
-    markers: true
+    scrub: true
     },
     opacity: 100, 
     x: -1500, 
