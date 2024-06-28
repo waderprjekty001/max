@@ -56,7 +56,7 @@ ScrollTrigger.matchMedia({
 gsap.from(".auto", {
     scrollTrigger: {
     trigger: ".auto", 
-    start:"top 80%",
+    start:"top 70%",
     end:"top 10%",
     scrub: true
     },
