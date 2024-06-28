@@ -1,10 +1,26 @@
 gsap.registerPlugin(ScrollTrigger);
  
+gsap.from(".logomaximus", {
+    opacity: 0, 
+    y: 100, 
+    duration: 0.5, 
+    delay: 0.3,
+    stagger: 0 
+    });
+
 gsap.from(".Maximus", {
     opacity: 0, 
     y: 100, 
     duration: 0.5, 
     delay: 0.3,
+    stagger: 0 
+    });
+
+gsap.from(".logomfe", {
+    opacity: 0, 
+    y: 0, 
+    duration: 1, 
+    delay: 0.8,
     stagger: 0 
     });
 
