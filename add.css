@@ -1,6 +1,7 @@
 html body { 
   overflow-x: hidden;
   background-color: yellow;
+  width: 100vw;
 } 
 
 .clearfix::after {
