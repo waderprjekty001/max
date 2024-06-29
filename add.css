@@ -1,3 +1,4 @@
-html body img video { 
+body { 
   overflow-x: hidden;
+  background: black;
 } 
