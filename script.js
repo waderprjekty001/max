@@ -57,8 +57,8 @@ gsap.from(".auto", {
     scrollTrigger: {
     trigger: ".auto", 
     start:"top 70%",
-    end:"top -20%",
-    scrub: 1
+    end:"top -15%",
+    scrub: 1.5
     },
     opacity: 100, 
     x: -1200, 
