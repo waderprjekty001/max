@@ -1,13 +1,6 @@
 html body { 
   overflow-x: hidden;
-  background-color: black;
-  width: 100vw;
+  background-color: yellow;
 } 
 
-.clearfix::after {
-	content: "\0000";
-	visibility: hidden;
-	display: block;
-	height: 0px;
-	clear: both;
-}
+
