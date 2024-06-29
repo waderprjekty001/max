@@ -1,6 +1,10 @@
-html body { 
+html { 
   overflow-x: hidden;
   background-color: yellow;
+} 
+html body { 
+  overflow-x: hidden;
+  background-color: pink;
 } 
 
 
