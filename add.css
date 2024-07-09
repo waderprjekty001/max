@@ -9,4 +9,5 @@ body {
   background-size: cover !important;
   background-position: right bottom;
   background-repeat: no-repeat;
+  padding-bottom: 200px;
 }
