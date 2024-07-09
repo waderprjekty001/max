@@ -6,7 +6,7 @@ body {
 } 
 
 .herofoto {
-  background-size: cover;
+  background-size: cover !important;
   background-position: right bottom;
   background-repeat: no-repeat;
 }
