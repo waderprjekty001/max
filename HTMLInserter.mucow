@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+HTML Widget for inserting custom HTML into different sections of the web page
+-->
+<HTMLWidget name="HTML Inserter" formatNumber="1"  localization="none" creator="Adobe Muse Team" defaultWidth="100" defaultHeight="20" isResizable="false">
+<parameters>
+	<text name="bodyOpenText" multiline="true" label="HTML for body open" toolTip="Text entered here must be valid HTML. At output time, it will be inserted right after the HTML body tag is opened." defaultValue="&lt;!-- A comment after the start of the body tag -->"/>
+	<text name="bodyCloseText" multiline="true" label="HTML for body close" toolTip="Text entered here must be valid HTML. At output time, it will be inserted right before the HTML body tag is closed." defaultValue="&lt;!-- A comment before the end of the body tag -->"/>
+</parameters>
+
+<bodyBeginHTML>
+<![CDATA[
+{param_bodyOpenText}
+]]>
+</bodyBeginHTML>
+
+<bodyEndHTML>
+<![CDATA[
+{param_bodyCloseText}
+]]>
+</bodyEndHTML>
+
+
+</HTMLWidget>
